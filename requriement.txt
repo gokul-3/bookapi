@@ -1,0 +1,83 @@
+
+Requirements - Book Management API
+
+Book
+- ISBN          - String
+- Title         - String
+- Author        - [Number]
+- Language      - String
+- Publications  - Number
+- NumOfPages    - Number
+- Categories    - [String]
+
+
+Author
+- Id        - Number
+- Name      - String
+- Books     - [String]
+
+Publications
+- Id        - Number
+- Name      - String
+- Books     - [String]
+
+
+=> List of APIs
+
+Books
+
+    - GET
+        - ✅ to get all books 
+        - ✅ to get specific books 
+        - ✅ to get a list of books based on category
+        - ✅ 🔥 to get a list of books based on author
+
+    - POST
+        - ✅ add a new book
+
+    - PUT
+        - ✅ to update book details
+        - ✅ to update/add new author
+
+    - DELETE
+        - delete a book
+        - delete an author from a book
+
+
+Authors
+
+    - GET
+        - ✅ to get all authors
+        - ✅ 🔥 to get specific author --> task
+        - to get list of author based on book
+        
+    - POST
+        - ✅ add new author
+
+    - PUT
+        - ✅ 🔥 update author details
+
+    - DELETE
+        - delete an author
+
+
+
+Publications
+
+    - GET
+        - ✅ 🔥 to get all publication
+        - ✅ 🔥 to get specific publication
+        - ✅ 🔥 to get list of publication based on a book
+
+    - POST
+        - ✅ 🔥 add new publication
+
+    - PUT
+        - update publication details
+        - update or add a new book
+
+    - DELETE
+        - delete a book from publication
+        - ✅ 🔥 delete a publication
+
+

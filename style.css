@@ -1,0 +1,147 @@
+:root{
+    --primary-blue : #2333C2;
+}
+*{
+    background-color: transparent;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-weight: bold;
+}
+
+body{
+    color: var(--primary-blue);
+}
+
+input{
+    font-size: 14px;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin: 0px auto;
+    padding: 30px;
+    border: 1px solid var(--primary-blue);
+}
+
+.addon__details{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: orange; */
+    margin-bottom: 20px;
+}
+
+.company{
+
+}
+
+.company__name{
+    background-color: var(--primary-blue);
+    color: #fff;
+    text-transform: uppercase;
+    padding : 5px 10px;
+}
+
+.comapny__location{
+    margin-top: 10px;
+}
+
+.voucher__details{
+}
+
+.voucher__details > *:not(:last-child){
+    margin-bottom: 10px;
+}
+
+
+.input__group{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.input__group label{
+    width: 70px;
+}
+
+.input__group input, textarea{
+    /* background-color: rgb(214, 214, 214); */
+    height: auto;
+    flex : 1;
+    padding: 2px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-bottom: 1px dotted var(--primary-blue);
+    font-family: roboto, Arial, Helvetica, sans-serif;
+}
+
+.input__group textarea{
+    flex: 1;
+    outline: none;
+    border: none;
+    /* border-bottom: 1px dotted var(--primary-blue); */
+    /* text-decoration: underline; */
+    line-height: 1.5;
+}
+
+.voucher__number{
+
+}
+
+.voucher__date{
+
+}
+
+
+.authorization{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: flex-end;
+}
+.amount{
+    border: 1px solid var(--primary-blue);
+    padding: 4px;
+}
+
+.amount input{
+    border: none;
+    background-color: transparent;
+}
+.incharge{
+
+}
+.director{
+
+}
+.cmd{
+
+}
+.received{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.received > *:not(:last-child){
+    margin-bottom: 5px;
+}
+.signature__box{
+    width: 70px;
+    height: 70px;
+    border: 1px solid var(--primary-blue);
+}
+
+
+@media print {
+    .input__group input, textarea{
+    background-color: transparent;
+}
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Debit Voucher | NAP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <div class="addon__details">
+            <div class="company">
+                <h2 class="company__name">Netaji Apparel Park</h2>
+                <h4 class="comapny__location">New Tirupur</h4>
+            </div>
+            
+            <div class="voucher__details">
+                <h3>Debit voucher</h3>
+                <div class="input__group voucher__number">
+                    <span>V.No. :</span>
+                    <input type="text" name="date" id="">
+                </div>
+                <div class="input__group voucher__date">
+                    <span>Date. :</span>
+                    <input type="date" name="date" id="">
+                </div>
+            </div>
+        </div>
+
+        <form class="voucher__form" netlify>
+            <div class="input__group">
+                <label for="debit">Debit</label>
+                <input type="text" class="debit" id="debit">
+                <!-- <textarea name="" id="debit"  rows="1"></textarea> -->
+            </div>
+            <div class="input__group">
+                <label for="rupees">Rupees</label>
+                <input type="text" class="debit" id="rupees">
+                <!-- <textarea name="" id="rupees"  rows="1"></textarea> -->
+            </div>
+            <div class="input__group">
+                <label for="paidto">Paid to</label>
+                <input type="text" class="debit" id="paidto">
+                <!-- <textarea name="" id="paidto"  rows="1"></textarea> -->
+            </div>
+            <div class="input__group">
+                <label for="against">Against</label>
+                <input type="text" class="debit" id="against">
+                <!-- <textarea name="" id="against"  rows="1"></textarea> -->
+            </div>
+            <div class="input__group">
+                <label for="being">Being</label>
+                <!-- <input type="text" class="debit" id="being"> -->
+                <textarea name="" id="being" rows="2" ></textarea>
+            </div>
+        </form>
+
+        <div class="authorization">
+            <div class="amount">
+                <label for="rs">Rs.</label>
+                <input type="text" id="rs">
+            </div>
+            <div class="incharge">Officer Incharge</div>
+            <div class="director">Director</div>
+            <div class="cmd">CMD</div>
+            <div class="received">
+                <span>Received</span>
+                <div class="signature__box"></div>
+                <span>Signature</span>
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+</html>
